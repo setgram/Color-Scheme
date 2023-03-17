@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <input type="color" class="color-picker" />
+      <select class="category">
+        <option value="Monochrome">monochrome</option>
+        <option value="monochrome-dark">monochrome-dark</option>
+        <option value="monochrome-light">monochrome-light</option>
+        <option value="analogic">analogic</option>
+        <option value="complement">complement</option>
+        <option value="analogic-complement">analogic-complement</option>
+        <option value="triad">triad</option>
+        <option value="quad">quad</option>
+      </select>
+
+      <a class="upsale-button">
+        <span class="get-btn">Get color scheme</span>
+      </a>
+    </header>
+    <main>
+      <h3 class="click-to-copy">Click on color to copy the hex value</h3>
+      <div class="container">
+        <h1 class="text">Pick a color & click the button</h1>
+        <div class="loading"></div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
